@@ -1,0 +1,5 @@
+nama : illa
+umur: 16
+alamat: JL. KALIMASADA IV/11nnama : illa
+umur: 16
+alamatn: JL. KALIMASADA IV/11

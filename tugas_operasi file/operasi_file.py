@@ -1,0 +1,13 @@
+print ("selamat datang di program biodata")
+print ("=================================")
+
+file_lagu = open("lagu.txt", "r")
+teks = file_lagu.read()
+print (teks)
+nama = input("nama: ")
+umur = input("umur: ")
+alamat = input("alamat: ")
+teks ="nama : {}\numur: {}\nalamatn: {}\n".format(nama, umur, alamat)
+file_bio = open("biodata.txt", "a")
+file_bio.write(teks)
+file_bio.close()
